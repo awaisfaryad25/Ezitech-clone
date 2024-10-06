@@ -542,11 +542,20 @@
   background-color: #042D89;
 }
 /* Skills */
+
+.skillsSection_animation{
+  max-width: 250px;
+}
 .skillsSection_row{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
+}
+.skillsSection_row--top{
+  justify-content: space-around;
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
 }
 .card_Sm{
   min-width: 160px;
