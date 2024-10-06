@@ -360,7 +360,7 @@
   font-weight: 700;
   line-height: 47px;
 }
-.heroSection_heading .skills{
+.heroSection_heading .profession{
   color: #00cbff;
 }
 .heroSection_brief{
@@ -421,11 +421,12 @@
 }
 
 /* Internship Section */
-.internSection_main{
+.internSection_main,
+.skillsSection_main{
   padding: 2rem;
   text-align: center;
 }
-.internSection_heading{
+.internSection_heading,.skillsSection_heading{
   font-size: 30px;
   font-weight: 800;
   line-height: 28px;
@@ -435,6 +436,7 @@
   flex-direction: column;
   gap: 1rem;
 }
+
 .card{
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -442,7 +444,7 @@
   
 }
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  /* box-shadow: 8px 16px 16px 8px rgba(0,0,0,0.2); */
 }
 .card_header{
   text-align: center;
@@ -539,19 +541,41 @@
 .internSection_btn:hover{
   background-color: #042D89;
 }
+/* Skills */
+.skillsSection_row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.card_Sm{
+  min-width: 160px;
+  max-width: 190px;
+  padding: 1rem;
+}
+.card_link{
+  display: inline-block;
+  width: 100%;
+  padding: 15px 5px;
+  color: #000;
+}
+.card_Sm-img{
+  margin: auto;
+  width: 70px;
+  height: 70px;
+}
+
 
 /* Learning Section */
 .learnSection_main{
   text-align: center;
 }
-
 .learnSection_col{
   display: none;
 }
 .learnSection_col1{
   padding: 2rem;
 }
-
 .learnSection_title{
   font-size: 31px;
   font-weight: 700;
@@ -929,9 +953,12 @@
     background-color: #2575ed;
   }
 
+  .skillsSection_main{
+    padding: 2rem 3rem;
+  }
 
   .internSection_main{
-    padding: 2rem 4rem;
+    padding: 4rem;
   }
   .internSection_col{
     width: 32%;
