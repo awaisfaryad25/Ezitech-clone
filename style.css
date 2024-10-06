@@ -423,7 +423,7 @@
 /* Internship Section */
 .internSection_main,
 .skillsSection_main{
-  padding: 2rem;
+  padding: 2rem 0rem;
   text-align: center;
 }
 .internSection_heading,.skillsSection_heading{
@@ -558,9 +558,12 @@
   padding-bottom: 2rem;
 }
 .card_Sm{
-  min-width: 160px;
+  min-width: 130px;
   max-width: 190px;
   padding: 1rem;
+}
+.card_Sm:hover{
+  margin-top: -10px;
 }
 .card_link{
   display: inline-block;
@@ -793,6 +796,9 @@
 }
 @media (min-width: 768px) {
 
+  .card_Sm{
+    min-width: 160px;
+  }
   .internSection_row{
     flex-direction: row;
     flex-wrap: wrap;
@@ -838,6 +844,7 @@
     font-size: 20px;
     line-height: 26px;
   }
+
   .footer_row{
     padding: 3rem 3rem;
     gap: 3rem;
