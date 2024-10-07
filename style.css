@@ -168,7 +168,7 @@
 
 .navbar_left-col,
 .navbar_log-col {
-  position: fixed;
+  position: absolute;
   right: 0;
   top: 0;
   padding: 2rem;
