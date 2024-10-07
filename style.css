@@ -421,9 +421,8 @@
 }
 
 /* Internship Section */
-.internSection_main,
-.skillsSection_main{
-  padding: 2rem 1rem;
+.internSection_main{
+  padding: 2rem ;
   text-align: center;
 }
 .internSection_heading,.skillsSection_heading{
@@ -542,7 +541,10 @@
   background-color: #042D89;
 }
 /* Skills */
-
+.skillsSection_main{
+  padding: 2rem 0rem;
+  text-align: center;
+}
 .skillsSection_animation{
   max-width: 250px;
 }
