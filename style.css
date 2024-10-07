@@ -156,7 +156,7 @@
   top: 0;
   right: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 11;
 }
 .navbar_left-row,
 .navbar_log-row {
@@ -173,9 +173,13 @@
   top: 0;
   padding: 2rem;
   width: 350px;
+  height: auto;
   box-sizing: border-box;
   max-width: 85%;
   background-color: #eef1f7;
+  color: #000;
+  text-align: start;
+  z-index: 999;
 }
 .button-wrapper {
   position: relative;
@@ -425,10 +429,11 @@
   padding: 2rem ;
   text-align: center;
 }
-.internSection_heading,.skillsSection_heading{
+.internSection_heading,
+.skillsSection_heading{
   font-size: 30px;
-  font-weight: 800;
-  line-height: 28px;
+  font-weight: 800;  
+  line-height: 40px;
 }
 .internSection_row{
   display: flex;
@@ -541,7 +546,11 @@
   background-color: #042D89;
 }
 /* Skills */
+.skillsSection{
+  z-index: -1;
+}
 .skillsSection_main{
+  z-index: -11;
   padding: 2rem 0rem;
   text-align: center;
 }
