@@ -168,7 +168,7 @@
 
 .navbar_left-col,
 .navbar_log-col {
-  position: absolute;
+  position: fixed;
   right: 0;
   top: 0;
   padding: 2rem;
@@ -235,7 +235,7 @@
   background-color: #385bce;
 }
 .navbar_left-courses {
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 .navbar_left-courses span {
   color: #777;
